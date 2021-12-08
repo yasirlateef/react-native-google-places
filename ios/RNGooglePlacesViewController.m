@@ -39,6 +39,9 @@
     viewController.autocompleteBounds = autocompleteBounds;
     viewController.autocompleteBoundsMode = autocompleteBoundsMode;
     viewController.placeFields = selectedFields;
+    viewController.secondaryTextColor = [UIColor lightGrayColor]
+    viewController.tableCellSeparatorColor = [UIColor lightGrayColor]
+    viewController.tableCellBackgroundColor = [UIColor whiteColor]
 	viewController.delegate = self;
     UIViewController *topController = [self getTopController];
 	[topController presentViewController:viewController animated:YES completion:nil];
